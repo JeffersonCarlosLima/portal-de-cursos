@@ -1,25 +1,27 @@
-<section class="d-flex">
+<section class="d-flex flex-colum">
     <div class="container">
         <div class="bg-black">
-            <img src="../../assets/img/fundo-login.svg" class="img-fluid" alt="logo"></div>
+            <h1>Portal de cursos Online</h1>
+            <p>texto qualquer para carrossel</p>
         </div>
         
         <div>
             <img src="" alt="">
         </div>
         <div class="p-2 area-login">
-        <form>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Usuário</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Usuário</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        
-    <button (click)="loginUsuario()" type="submit" class="btn btn-primary">Entrar</button>
-</form>
-</div>
-    </section>
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            
+        <button (click)="loginUsuario()" type="submit" class="btn btn-primary">Entrar</button>
+    </form>
+    </div>
+    </div>
+</section>

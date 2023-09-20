@@ -1,11 +1,13 @@
 <section class="d-flex">
     <div class="container">
+        <div class="bg-black">
+            <img src="../../assets/img/fundo-login.svg" class="img-fluid" alt="logo"></div>
+        </div>
+        
         <div>
             <img src="" alt="">
         </div>
-        
-    </div>
-    <div>
+        <div class="p-2 area-login">
         <form>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Usuário</label>
@@ -17,7 +19,7 @@
             <input type="password" class="form-control" id="exampleInputPassword1">
         </div>
         
-    <button type="submit" class="btn btn-primary">Entrar</button>
+    <button (click)="loginUsuario()" type="submit" class="btn btn-primary">Entrar</button>
 </form>
 </div>
     </section>

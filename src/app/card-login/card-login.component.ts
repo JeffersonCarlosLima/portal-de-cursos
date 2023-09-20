@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-login.component.css']
 })
 export class CardLoginComponent {
+  loginUsuario(){
+    alert("teste")
+  }
 
 }
